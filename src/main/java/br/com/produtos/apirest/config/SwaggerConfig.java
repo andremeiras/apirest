@@ -23,7 +23,7 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo metaInfo() {
-		return new ApiInfoBuilder().title("Teste").description("\"Teste\"").version("1.0.0")
+		return new ApiInfoBuilder().title("API REST Produtos").description("\"API REST with Spring Boot\"").version("1.0.0")
 				.license("Apache License Version 2.0").licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
 				.build();
 
